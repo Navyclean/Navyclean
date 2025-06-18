@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <title>Επικοινωνία | Navy Clean</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; }
+        header { background: #f6f8fa; padding: 20px 0; text-align: center; }
+        nav a { margin: 0 15px; text-decoration: none; color: #22304e; font-weight: bold; }
+        nav a.active { border-bottom: 2px solid #22304e; }
+        .logo { max-height: 80px; margin-bottom: 10px; }
+        main { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+        h1, h2 { color: #22304e; }
+        .contact { background: #f0f4fa; padding: 30px; border-radius: 10px; }
+        label { display: block; margin-bottom: 5px; }
+        input, textarea { width: 100%; padding: 8px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #ccc; }
+        button { background: #22304e; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #1a2236; }
+        footer { text-align: center; padding: 15px; background: #f6f8fa; color: #22304e; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Navy Clean Logo" class="logo">
+        <nav>
+            <a href="index.html">Αρχική</a>
+            <a href="services.html">Υπηρεσίες</a>
+            <a href="contact.html" class="active">Επικοινωνία</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Επικοινωνία</h1>
+        <div class="contact">
+            <p>Στείλτε μας μήνυμα ή επικοινωνήστε μαζί μας στο <b>navycleanservices@gmail.com</b></p>
+            <form>
+                <label for="name">Όνομα:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Μήνυμα:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Αποστολή</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Navy Clean Boat Cleaning Services
+    </footer>
+</body>
+</html>
