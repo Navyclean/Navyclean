@@ -1,0 +1,19 @@
+<svg width="220" height="120" viewBox="0 0 220 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <!-- Boat hull -->
+    <path d="M30 80 Q60 100 110 100 Q160 100 190 80" stroke="#163264" stroke-width="4" fill="none"/>
+    <!-- Boat mast -->
+    <line x1="110" y1="40" x2="110" y2="100" stroke="#163264" stroke-width="4"/>
+    <!-- Boat deck -->
+    <line x1="60" y1="80" x2="160" y2="80" stroke="#163264" stroke-width="4"/>
+    <!-- Sail shape (stylized) -->
+    <path d="M110 80 Q130 60 130 40" stroke="#163264" stroke-width="4" fill="none"/>
+    <!-- Sparkle/star (top left) -->
+    <g>
+      <line x1="40" y1="40" x2="40" y2="50" stroke="#163264" stroke-width="2"/>
+      <line x1="35" y1="45" x2="45" y2="45" stroke="#163264" stroke-width="2"/>
+      <line x1="37" y1="42" x2="43" y2="48" stroke="#163264" stroke-width="2"/>
+      <line x1="37" y1="48" x2="43" y2="42" stroke="#163264" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
