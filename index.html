@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navy Clean | Καθαρισμός Σκαφών Αττικής</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f5f7fa;
+      color: #002147;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #001f3f;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header img {
+      height: 60px;
+    }
+
+    nav a {
+      color: #ffffff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #a3cfff;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0, 33, 71, 0.7), rgba(0, 33, 71, 0.7)), 
+                  url('background.webp') no-repeat center center/cover;
+      color: #fff;
+      padding: 100px 20px 80px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.6em;
+      font-family: 'Playfair Display', serif;
+      color: #f0f0f0;
+      margin-bottom: 10px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.3em;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      background-color: #ffffff;
+      color: #002147;
+      padding: 14px 30px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease-in-out;
+      border: 2px solid transparent;
+    }
+
+    .button:hover {
+      background-color: transparent;
+      color: #ffffff;
+      border: 2px solid #ffffff;
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .section h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #001f3f;
+    }
+
+    .section p {
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    footer {
+      background-color: #001f3f;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 60px;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.2em;
+      }
+
+      .hero h2 {
+        font-size: 2em;
+      }
+
+      .hero p {
+        font-size: 1.1em;
+      }
+
+      nav a {
+        margin-left: 10px;
+        font-size: 0.95em;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Navy Clean Logo" loading="lazy">
+    <nav>
+      <a href="#">Αρχική</a>
+      <a href="#">Υπηρεσίες</a>
+      <a href="#">Επικοινωνία</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Καλωσορίσατε στη Navy Clean</h2>
+    <h1>Καθαριότητα Σκαφών με Επαγγελματισμό</h1>
+    <p>Εξειδικευμένες υπηρεσίες καθαρισμού σε όλη την Αττική</p>
+    <a href="#" class="button">Ζητήστε Προσφορά</a>
+  </section>
+
+  <section class="section">
+    <h3>Γιατί να επιλέξετε τη Navy Clean;</h3>
+    <p>Η Navy Clean προσφέρει ολοκληρωμένες και επαγγελματικές υπηρεσίες καθαρισμού σκαφών σε όλη την Αττική. 
+    Με σύγχρονο εξοπλισμό και μεράκι για το αποτέλεσμα, φροντίζουμε κάθε σκάφος – από φουσκωτό έως πολυτελές γιοτ – με απόλυτη προσοχή και συνέπεια.</p>
+  </section>
+
+  <footer>
+    Υπηρεσίες Καθαρισμού Σκαφών | ΑΦΜ: 047971170 | ΔΟΥ: ΚΕΦΟΔΕ ΑΤΤΙΚΗΣ | ΓΕΜΗ: 185308009000
+  </footer>
+
+</body>
+</html>
