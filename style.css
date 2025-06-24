@@ -4,46 +4,45 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background-color: #f5f7fa;
+  background-color: #f5f1e6;
   color: #002147;
   line-height: 1.6;
 }
 
 header {
-  background-color: #002147;
+  background-color: #f5f1e6;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px 60px;
 }
 
 header img {
-  height: 60px;
+  height: 100px;
 }
 
 nav a {
-  color: #ffffff;
-  margin-left: 20px;
+  color: #002147;
+  margin-left: 25px;
   text-decoration: none;
   font-weight: 500;
+  font-size: 1rem;
   transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #a3cfff;
+  text-decoration: underline;
 }
 
-footer {
-  background-color: #002147;
-  color: #fff;
+.hero {
+  background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('background_yacht_final.webp') center/cover no-repeat;
+  padding: 120px 20px;
   text-align: center;
-  padding: 20px;
-  font-size: 0.9em;
-  margin-top: 60px;
+}
+
+.hero h1, .hero h2, .hero p {
+  color: #002147;
+  font-family: 'Playfair Display', serif;
 }
 
 .section {
@@ -53,14 +52,23 @@ footer {
   text-align: center;
 }
 
-.section h1, .section h2, .section h3 {
+.section h1, .section h2 {
   font-family: 'Playfair Display', serif;
-  color: #001f3f;
+  color: #002147;
+}
+
+footer {
+  background-color: #002147;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
 }
 
 .button {
-  background-color: #002147;
-  color: #fff;
+  background-color: transparent;
+  border: 2px solid #002147;
+  color: #002147;
   padding: 12px 28px;
   border-radius: 6px;
   text-decoration: none;
@@ -71,21 +79,6 @@ footer {
 }
 
 .button:hover {
-  background-color: #fff;
-  color: #002147;
-  border: 2px solid #002147;
-}
-
-
-.hero {
-  background-size: cover;
-  background-position: center;
-  color: #ffffff;
-  padding: 140px 20px;
-  text-align: center;
-  font-family: 'Playfair Display', serif;
-}
-
-.hero h1, .hero h2, .hero p {
+  background-color: #002147;
   color: #ffffff;
 }
